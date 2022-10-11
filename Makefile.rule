@@ -49,8 +49,8 @@ CURRENT_DIR := $(patsubst %/,%,$(dir $(MAKEFILE_PATH)))
 #################################################
 
 # Target architecture
-TARGET = AVX
-#TARGET = GENERIC
+#TARGET = AVX
+TARGET = GENERIC
 
 # Use C99 extension to math library
 #
